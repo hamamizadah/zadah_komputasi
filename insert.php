@@ -13,7 +13,7 @@ ini_set('display_errors', 1);
 	<center>
 		<?php
 
-		$conn = mysqli_connect("localhost", "root", "", "zadah_komputasi_kuis1");
+		$conn = mysqli_connect("localhost", "root", "", "zadah_komputasi");
 		
 		// Check connection
 		if($conn === false){
