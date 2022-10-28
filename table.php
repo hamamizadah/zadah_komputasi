@@ -24,7 +24,7 @@ table, th, td {
 	<center>
 		<?php
 
-		$conn = mysqli_connect("localhost", "root", "", "zadah_komputasi_kuis1");
+		$conn = mysqli_connect("localhost", "root", "", "zadah_komputasi");
 		
 		// Check connection
 		if($conn === false){
